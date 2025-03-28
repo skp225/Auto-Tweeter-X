@@ -1,0 +1,19 @@
+Excel File Structure for tweetlist.xlsx:
+
+Column Headers:
+- Tweet (Required): Contains the tweet text
+
+Example rows:
+1. "Hello world!"
+2. "Goodbye world!"
+3. "Go Elon!"
+4. "DOGE DOGE DOGE DOGE"
+5. "Kim Kardashian eww!"
+6. "Free Assange!!"
+7. "Go go 123 abc testing testing"
+8. [Leave blank to indicate the end of the tweet list]
+
+Notes:
+- The script will post tweets in order until it reaches a blank row
+- You can add more tweets at any time by adding rows to the Excel file
+- The script will automatically reload the Excel file each day to check for updates
